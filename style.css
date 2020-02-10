@@ -1,0 +1,17 @@
+body {
+  height: auto;
+  background-color: bisque;
+}
+
+#mainContainer {
+display: flex;
+}
+
+#gameBorder {
+  display: auto;
+  margin: auto;
+  margin-top: 5%;
+  height: 600px;
+  width: 800px;
+  border: 1px solid black;
+}
