@@ -4,14 +4,35 @@ body {
 }
 
 #mainContainer {
-display: flex;
+display: grid;
+grid-gap: 1em;
+width: 100%;
+}
+
+#mainContainer > div {
+  padding: 1em;
+}
+
+#hangmanImage {
+  border: 1px solid brown;
+  height: 350px;
+  width: 240px;
+  padding: 2em;
+  margin: 10px;
 }
 
 #gameBorder {
-  display: auto;
   margin: auto;
   margin-top: 5%;
   height: 600px;
   width: 800px;
   border: 1px solid black;
+  background-color: whitesmoke;
+}
+
+#usedLetters {
+  border: 1px solid purple;
+  margin: auto;
+  height: 80px;
+  width: 800px;
 }
